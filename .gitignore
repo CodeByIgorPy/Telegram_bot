@@ -2,3 +2,4 @@
 venv/
 /function.py
 .env
+/public_key.asc
