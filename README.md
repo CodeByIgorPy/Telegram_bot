@@ -37,7 +37,8 @@ The command pip install -r requirements.txt is used to install Python packages l
 3. Choose the desired bot from the provided list.
 Provide the list of commands in the following format:
 ```
-start - start working with the bot
+start - Start working with the bot
+select_ai - Select AI
 my_id - Get your ID
 ```
 Save the list of commands, replacing the previous list.

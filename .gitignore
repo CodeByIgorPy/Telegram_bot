@@ -3,3 +3,4 @@ venv/
 /function.py
 .env
 /public_key.asc
+__pycache__/
