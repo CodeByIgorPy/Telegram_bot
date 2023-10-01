@@ -28,3 +28,16 @@ Now, you have the virtual environment activated in the PyCharm terminal. Any pac
 The command pip install -r requirements.txt is used to install Python packages listed in the requirements.txt file. This file is commonly used in Python projects for managing dependencies.
 
 `pip install -r requirements.txt`
+
+
+### Instructions for adding a command menu:
+
+1. Join the `BotFather` chat.
+2. Enter the command `/setcommands`.
+3. Choose the desired bot from the provided list.
+Provide the list of commands in the following format:
+```
+start - start working with the bot
+my_id - Get your ID
+```
+Save the list of commands, replacing the previous list.
