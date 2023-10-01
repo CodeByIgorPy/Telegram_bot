@@ -32,5 +32,10 @@ async def cmd_my_id(message: Message):
 async def main():
     await dp.start_polling(bot)
 
+# When quickly starting and stopping the bot, the try-except might not catch the error
 if __name__ == '__main__':
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print('Bot stopped')
+
