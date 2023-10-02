@@ -123,3 +123,5 @@ async def main():
     await dp.start_polling(bot)
 ```
 Done!
+
+TEST COMMIT -S -m in IDE
