@@ -1,7 +1,7 @@
 from aiogram import Router, F
 from aiogram.types import Message
 from create_bot import bot, admin_id
-import keyboards as kb
+import keyboards.client_keyboards as kb
 
 my_router = Router()
 
