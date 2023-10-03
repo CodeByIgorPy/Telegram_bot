@@ -3,11 +3,13 @@ import logging  # for logging
 from create_bot import dp, bot
 from handlers.client import my_router, register_handlers_client
 from handlers.other import other_router
+from handlers.admin import admin_router, Admin
 
 
 async def main():
     register_handlers_client()
     dp.include_router(my_router)
+    dp.include_router(admin_router)
     dp.include_router(other_router)
     await dp.start_polling(bot)
 

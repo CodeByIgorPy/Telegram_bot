@@ -6,7 +6,7 @@ import keyboards.client_keyboards as kb
 my_router = Router()
 
 
-async def cmd_start(message: Message,):
+async def cmd_start(message: Message):
 
     user_info = f"""
 ID: {message.from_user.id}
@@ -19,7 +19,7 @@ ID: {message.from_user.id}
     await message.answer(f'Hi {message.from_user.username}' '\nChoose AI command   /select_ai')
 
 
-async def cmd_select_ai(message: Message,):
+async def cmd_select_ai(message: Message):
     await message.answer('Select AI: ', reply_markup=kb.main)
 
 
@@ -27,7 +27,7 @@ async def on_chat_gpt_4(message: Message):
     await message.answer('Select a chat to communicate with the GPT-4 chat', reply_markup=kb.chat_gpt)
 
 
-async def links_func(message: Message,):
+async def links_func(message: Message):
     await message.answer('links to AI:', reply_markup=kb.links)
 
 
