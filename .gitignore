@@ -4,3 +4,5 @@ venv/
 .env
 /public_key.asc
 __pycache__/
+/ngrok.exe
+

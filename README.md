@@ -29,6 +29,7 @@ The command pip install -r requirements.txt is used to install Python packages l
 
 `pip install -r requirements.txt`
 
+`pip freeze > requirements.txt`
 
 ### Instructions for adding a command menu:
 
